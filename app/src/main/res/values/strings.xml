@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="edit_message">Enter your name</string>
+    <string name="button_send">Send</string>
+    <string name="button_start">Click to Get Started!</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_nextpage">Next Page</string>
+    <string name="hint_wholenumber">Enter a whole number</string>
+</resources>
