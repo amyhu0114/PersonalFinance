@@ -9,21 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EnterInformation2Activity"
-            android:parentActivityName=".EnterInformationActivity">
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".EnterInformationActivity" />
-        </activity>
         <activity
-            android:name=".FinancialPlanActivity"
-            android:parentActivityName=".EnterInformation2Activity">
+            android:name=".FinancialAdvicesActivity"
+            android:parentActivityName=".FinancialPlanActivity">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".EnterInformation2Activity" />
+                android:value=".FinancialPlanActivity" />
+        </activity>
+        <activity
+            android:name=".FinancialPlanActivity"
+            android:parentActivityName=".EnterInformationActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnterInformationActivity" />
         </activity>
         <activity
             android:name=".EnterInformationActivity"
