@@ -58,7 +58,7 @@ public class FinancialAdvicesActivity extends AppCompatActivity {
         if (maxvalue==info[3])
         {
             textView20.append("\nLooks like you are spending the most on school-related items");
-            textView21.setText("\n\nIf you are trying to cut down on budget, consider buying less unnecessary stationary. Don't worry too much if you are in the Back-To-School season - spending in this category will level off once school continues.\n\nTip: Check your existing supplies stack before buying anything new - this can help your avoid buying unnecessary items.");
+            textView21.append("\n\nIf you are trying to cut down on budget, consider buying less unnecessary stationary. Don't worry too much if you are in the Back-To-School season - spending in this category will level off once school continues.\n\nTip: Check your existing supplies stack before buying anything new - this can help your avoid buying unnecessary items.");
         }
         if (maxvalue==info[4])
         {
