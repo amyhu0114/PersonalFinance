@@ -22,7 +22,7 @@ import java.util.ArrayList;
 public class FinancialPlanActivity extends AppCompatActivity {
     PieChart pieChart;
     int [] temp;
-    @Override//
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_financial_plan);
