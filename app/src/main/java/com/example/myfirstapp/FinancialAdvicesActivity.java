@@ -53,7 +53,7 @@ public class FinancialAdvicesActivity extends AppCompatActivity {
         if (maxvalue==info[2])
         {
             textView20.append("\nLooks like you are spending the most on beauty products");
-            textView21.setText("\n\nIf you are trying to cut down on budget, consider buying less makeup or get your nails/hair done in a less frequent rate. Constantly dyeing your hair or painting your nails could potentially be harmful to your hair/nail. \n\nTip: Try layering some of your lipsticks to get new colors - it can lead to some surprises!");
+            textView21.append("\n\nIf you are trying to cut down on budget, consider buying less makeup or get your nails/hair done in a less frequent rate. Constantly dyeing your hair or painting your nails could potentially be harmful to your hair/nail. \n\nTip: Try layering some of your lipsticks to get new colors - it can lead to some surprises!");
         }
         if (maxvalue==info[3])
         {
@@ -67,8 +67,8 @@ public class FinancialAdvicesActivity extends AppCompatActivity {
         }
         if (maxvalue==info[5])
         {
-            textView20.setText("\nLooks like you are spending the most on miscellaneous items");
-            textView21.setText("\n\nIf you are trying to cut down on budget, consider making a rational financial plan for your day-to-day spending - You are already onto a great start by downloading this app! =)\n\nTip: Try avoid impulse buying by asking yourself the question: 'Do I really need it?'");
+            textView20.append("\nLooks like you are spending the most on miscellaneous items");
+            textView21.append("\n\nIf you are trying to cut down on budget, consider making a rational financial plan for your day-to-day spending - You are already onto a great start by downloading this app! =)\n\nTip: Try avoid impulse buying by asking yourself the question: 'Do I really need it?'");
         }
         if (maxvalue==0)
         {

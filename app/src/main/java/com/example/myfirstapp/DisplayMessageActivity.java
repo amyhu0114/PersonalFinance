@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class DisplayMessageActivity extends AppCompatActivity {
-
+    //public static String message;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,4 +33,5 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Intent intent = new Intent(this, EnterInformationActivity.class);
         startActivity(intent);
     }
+
 }
